@@ -1,2 +1,4 @@
 # slm-mesh-site
-SLM Mesh: home page and privacy policy for its Google sign-in
+
+The public home page and privacy policy of SLM Mesh, published with GitHub Pages at
+https://brunordelima-alt.github.io/slm-mesh-site/ (linked from its Google OAuth consent screen).
