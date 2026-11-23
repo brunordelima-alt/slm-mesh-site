@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SLM Mesh</title>
+<meta name="description" content="SLM Mesh: a personal AI assistant that runs on your own computer.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy policy</a></nav>
+<h1>SLM Mesh</h1>
+<p class="muted">A personal AI assistant that runs on your own computer.</p>
+
+<p>SLM Mesh answers questions, researches on the web, writes and runs code and carries out tasks with several steps,
+using small language models that run on the owner's own machine (today, a Mac mini). Conversations and files stay on
+that machine. It is a personal, self-hosted project: each installation belongs to and is run by its owner, and no
+data is sent to the developer.</p>
+
+<h2>Google Docs</h2>
+<p>When you ask SLM Mesh for a document as a Google Doc, it uploads the document it wrote to your Google Drive and gives
+you the link. It asks for your approval before each upload. It requests only the Google Drive <code>drive.file</code>
+permission, which lets it see and change only the files it creates itself, nothing else in your Drive. You connect your
+Google account on your own computer (<code>./slm google setup</code>) and can disconnect at any time
+(<code>./slm google disconnect</code>, or from your Google Account's third-party access page).</p>
+
+<p>Read the <a href="privacy.html">privacy policy</a> for what SLM Mesh does with your Google data.</p>
+
+<footer class="muted">SLM Mesh · Questions: <a href="https://github.com/brunordelima-alt/slm-mesh-site/issues">open an issue on GitHub</a></footer>
+</main>
+</body>
+</html>
